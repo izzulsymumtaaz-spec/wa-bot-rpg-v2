@@ -1,0 +1,22 @@
+{
+  "name": "ashirou-bot-v1",
+  "version": "1.0.0",
+  "description": "ASHIROU BOT V1 - WhatsApp Baileys starter with dashboard, SQLite, RPG and group rental scaffolding",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dashboard": "node src/server.js",
+    "dev": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4"
+  }
+}
